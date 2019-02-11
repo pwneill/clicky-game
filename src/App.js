@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import candidates from "./../candidates.json"
+import candidates from "./candidates.json"
 import Wrapper from "./components/container"
 import Header from "./components/header"
 import Jumbotron from "./components/jumbotron"
