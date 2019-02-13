@@ -1,7 +1,5 @@
 import React from "react";
-// import './App.css';
 import candidates from "./candidates.json";
-// import Container from "./components/container";
 import Header from "./components/header";
 import Jumbotron from "./components/jumbotron";
 import CandidateCard from "./components/card";
@@ -14,6 +12,10 @@ class App extends React.Component {
     clicked: [],
     message: "Welcome!"
   };
+
+  componentWillMount() {
+    this.shuffleArray(candidates)
+  }
 
   shuffleArray = array => {
     let i = array.length - 1;
@@ -38,31 +40,19 @@ class App extends React.Component {
 
   clickCard = id => {
     if (this.state.clicked.includes(id)) {
-      console.log("yes", id)
       this.setState({ score: 0 });
       this.setState({ clicked: [] });
       this.setState({message: "You Guessed Incorrectly!"})
+      this.className({})
     } else {
-      console.log("no", id)
       let clickedArr = [...this.state.clicked, id];
       this.shuffleArray(this.state.candidates); 
       this.setState({ clicked: clickedArr });
       this.setState({message: "You Guessed Correctly!"})
       this.checkScore();
     }
-    //check if in array
-    // if not in array, get id and push into array
-    // then update score
-    // if score > bestScore
-    // bestScore = score
-    //"you guessed correctly"
-    // if in array, "you done fucked up son"
-    // set score to 0
-    // set clicked to []
-    // both cases, re-render page in random order
   };
 
-  // Map over this.state.friends and render a CandidateCard component for each candidate object
   render() {
     return (
       <div className="container-fluid">
@@ -89,3 +79,9 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+// To do: 
+// -- Fix shitty image quality
+// -- add shake animation
+// -- deploy! 
