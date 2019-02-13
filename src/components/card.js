@@ -1,28 +1,19 @@
 import React from "react";
-import CardBody from "./cardBody"
+import "./cardStyle.css";
 
-class Card extends React.Component {
-    state = {
-        clicked: false
-    };
+function CandidateCard (props) {
+    return (
+      <div className="card text-center col-auto mt-4 ml-5 mr-5">
+        <div onClick={() => props.handleClick(props.id)} className="card-body">
+          <img
+            id={props.id}
+            src={props.image}
+            alt={props.name}
+          />
+        </div>
+      </div>
+    );
+  }
 
-    isClicked = () => {
-        this.setState({ clicked: true })
-    }
 
-    render() {
-        return (
-            <div className="card text-center">
-            <div className="card-header bg-primary text-white">
-              Click Counter!
-            </div>
-            <CardBody
-              clicked={this.state.clicked}
-            />
-          </div>    
-        )
-    }
-
-}    
-
-export default Card;
+export default CandidateCard;
