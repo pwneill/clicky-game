@@ -15,11 +15,16 @@ class App extends React.Component {
     message: "Welcome!"
   };
 
-  shuffleArray = arr =>
-    arr
-      .map(a => [Math.random(), a])
-      .sort((a, b) => a[0] - b[0])
-      .map(a => a[1]);
+  shuffleArray = array => {
+    let i = array.length - 1;
+    for (; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    this.setState({ candidates: array })
+  }
 
   checkScore() {
     var newScore = this.state.score;
@@ -40,6 +45,7 @@ class App extends React.Component {
     } else {
       console.log("no", id)
       let clickedArr = [...this.state.clicked, id];
+      this.shuffleArray(this.state.candidates); 
       this.setState({ clicked: clickedArr });
       this.setState({message: "You Guessed Correctly!"})
       this.checkScore();
