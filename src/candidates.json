@@ -2,62 +2,62 @@
     {
         "id": 1,
         "name": "Amy Klobuchar",
-        "image": "./images/amyklobuchar.jpg"
+        "image": "./../images/amyklobuchar.jpg"
     },
     {
         "id": 2,
         "name": "Barack Obama",
-        "image": "./images/barackobama.jpg"
+        "image": "./../images/barackobama.jpg"
     },
     {
         "id": 3,
         "name": "Bernie Sanders",
-        "image": "./images/berniesanders.jpg"
+        "image": "./../images/berniesanders.jpg"
     },
     {
         "id": 4,
         "name": "Beto O'Rourke",
-        "image": "./images/betoorourke.jpg"
+        "image": "./../images/betoorourke.jpg"
     },
     {
         "id": 5,
         "name": "Cory Booker",
-        "image": "./images/corybooker.jpg"
+        "image": "./../images/corybooker.jpg"
     },
     {
         "id": 6,
         "name": "Elizabeth Warren",
-        "image": "./images/elizabethwarren.jpg"
+        "image": "./../images/elizabethwarren.jpg"
     },
     {
         "id": 7,
         "name": "Joe Biden",
-        "image": "./images/joebiden.jpg"
+        "image": "./../images/joebiden.jpg"
     },
     {
         "id": 8,
         "name": "Julian Castro",
-        "image": "./images/juliancastro.jpg"
+        "image": "./../images/juliancastro.jpg"
     },
     {
         "id": 9,
         "name": "Kamala Harris",
-        "image": "./images/kamalaharris.jpg"
+        "image": "./../images/kamalaharris.jpg"
     },
     {
         "id": 10,
         "name": "Kirsten Gillibrand",
-        "image": "./images/kirstengillibrand.jpg"
+        "image": "./../images/kirstengillibrand.jpg"
     },
     {
         "id": 11,
         "name": "Pete Buttigieg",
-        "image": "./images/mayorpete.jpeg"
+        "image": "./../images/mayorpete.jpeg"
     },
     {
         "id": 12,
         "name": "Tulsi Gabbard",
-        "image": "./images/tulsigabbard.jpg"
+        "image": "./../images/tulsigabbard.jpg"
     }
 ]
 
