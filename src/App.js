@@ -43,7 +43,6 @@ class App extends React.Component {
       this.setState({ score: 0 });
       this.setState({ clicked: [] });
       this.setState({message: "You Guessed Incorrectly!"})
-      this.className({})
     } else {
       let clickedArr = [...this.state.clicked, id];
       this.shuffleArray(this.state.candidates); 
