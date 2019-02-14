@@ -2,62 +2,62 @@
     {
         "id": 1,
         "name": "Amy Klobuchar",
-        "image": "./public/images/amyklobuchar.jpg"
+        "image": "./static/images/amyklobuchar.jpg"
     },
     {
         "id": 2,
         "name": "Barack Obama",
-        "image": "./public/images/barackobama.jpg"
+        "image": "./static/images/barackobama.jpg"
     },
     {
         "id": 3,
         "name": "Bernie Sanders",
-        "image": "./public/images/berniesanders.jpg"
+        "image": "./static/images/berniesanders.jpg"
     },
     {
         "id": 4,
         "name": "Beto O'Rourke",
-        "image": "./public/images/betoorourke.jpg"
+        "image": "./static/images/betoorourke.jpg"
     },
     {
         "id": 5,
         "name": "Cory Booker",
-        "image": "./public/public/images/corybooker.jpg"
+        "image": "./static/images/corybooker.jpg"
     },
     {
         "id": 6,
         "name": "Elizabeth Warren",
-        "image": "./public/images/elizabethwarren.jpg"
+        "image": "./static/images/elizabethwarren.jpg"
     },
     {
         "id": 7,
         "name": "Joe Biden",
-        "image": "./public/images/joebiden.jpg"
+        "image": "./static/images/joebiden.jpg"
     },
     {
         "id": 8,
         "name": "Julian Castro",
-        "image": "./public/images/juliancastro.jpg"
+        "image": "./static/images/juliancastro.jpg"
     },
     {
         "id": 9,
         "name": "Kamala Harris",
-        "image": "./public/images/kamalaharris.jpg"
+        "image": "./static/images/kamalaharris.jpg"
     },
     {
         "id": 10,
         "name": "Kirsten Gillibrand",
-        "image": "./public/images/kirstengillibrand.jpg"
+        "image": "./static/images/kirstengillibrand.jpg"
     },
     {
         "id": 11,
         "name": "Pete Buttigieg",
-        "image": "./public/images/mayorpete.jpeg"
+        "image": "./static/images/mayorpete.jpeg"
     },
     {
         "id": 12,
         "name": "Tulsi Gabbard",
-        "image": "./public/images/tulsigabbard.jpg"
+        "image": "./static/images/tulsigabbard.jpg"
     }
 ]
 
