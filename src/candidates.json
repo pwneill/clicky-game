@@ -2,62 +2,62 @@
     {
         "id": 1,
         "name": "Amy Klobuchar",
-        "image": "./static/images/amyklobuchar.jpg"
+        "image": "https://pbs.twimg.com/profile_images/1059812997982511105/lgFAlE5t_400x400.jpg"
     },
     {
         "id": 2,
         "name": "Barack Obama",
-        "image": "./static/images/barackobama.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg"
     },
     {
         "id": 3,
         "name": "Bernie Sanders",
-        "image": "./static/images/berniesanders.jpg"
+        "image": "https://pbs.twimg.com/profile_images/794596124686487552/kqpbolIc_400x400.jpg"
     },
     {
         "id": 4,
         "name": "Beto O'Rourke",
-        "image": "./static/images/betoorourke.jpg"
+        "image": "https://i.ytimg.com/vi/XHdINlxi5Ds/hqdefault.jpg"
     },
     {
         "id": 5,
         "name": "Cory Booker",
-        "image": "./static/images/corybooker.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cory_Booker%2C_official_portrait%2C_114th_Congress.jpg/220px-Cory_Booker%2C_official_portrait%2C_114th_Congress.jpg"
     },
     {
         "id": 6,
         "name": "Elizabeth Warren",
-        "image": "./static/images/elizabethwarren.jpg"
+        "image": "https://pbs.twimg.com/profile_images/722044174799777792/bXaodRhx.jpg"
     },
     {
         "id": 7,
         "name": "Joe Biden",
-        "image": "./static/images/joebiden.jpg"
+        "image": "https://pixel.nymag.com/imgs/daily/intelligencer/2019/02/07/07-joe-biden.w700.h700.jpg"
     },
     {
         "id": 8,
         "name": "Julian Castro",
-        "image": "./static/images/juliancastro.jpg"
+        "image": "https://pbs.twimg.com/profile_images/1084179879384494080/6pZz_T3l_400x400.jpg"
     },
     {
         "id": 9,
         "name": "Kamala Harris",
-        "image": "./static/images/kamalaharris.jpg"
+        "image": "https://pixel.nymag.com/imgs/daily/intelligencer/2019/02/11/11-kamala-harris-inhaled.w700.h700.jpg"
     },
     {
         "id": 10,
         "name": "Kirsten Gillibrand",
-        "image": "./static/images/kirstengillibrand.jpg"
+        "image": "https://pbs.twimg.com/profile_images/1085319297352650752/BumRu7ZX_400x400.jpg"
     },
     {
         "id": 11,
         "name": "Pete Buttigieg",
-        "image": "./static/images/mayorpete.jpeg"
+        "image": "https://southbendin.gov/wp-content/uploads/2018/05/pete-buttigieg-mayor-south-bend-in.jpg"
     },
     {
         "id": 12,
         "name": "Tulsi Gabbard",
-        "image": "./static/images/tulsigabbard.jpg"
+        "image": "https://pbs.twimg.com/profile_images/1084116035303804928/vEQ-8yXX_400x400.jpg"
     }
 ]
 
