@@ -4,5 +4,5 @@ A React-based application based on the game "Memory". Users can click a potentia
 
 A live version of the game can be found at:  https://pwneill.github.io/clicky-game/. Users can also clone the repository, install the relevant node packages and then run "npm start" to launch the game on their local server.
 
-This project is powered using Bootstrap and React.
+This project is powered using Express, Bootstrap and React.
 
