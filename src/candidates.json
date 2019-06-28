@@ -12,7 +12,7 @@
     {
         "id": 3,
         "name": "Bernie Sanders",
-        "image": "https://pbs.twimg.com/profile_images/794596124686487552/kqpbolIc_400x400.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bernie_Sanders.jpg"
     },
     {
         "id": 4,
@@ -47,7 +47,7 @@
     {
         "id": 10,
         "name": "Kirsten Gillibrand",
-        "image": "https://pbs.twimg.com/profile_images/1085319297352650752/BumRu7ZX_400x400.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kirsten_Gillibrand%2C_official_portrait%2C_112th_Congress.jpg/1024px-Kirsten_Gillibrand%2C_official_portrait%2C_112th_Congress.jpg"
     },
     {
         "id": 11,
